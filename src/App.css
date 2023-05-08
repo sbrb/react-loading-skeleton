@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 .card_skeleton {
   border: 1px solid #d1d1d1;
   width: 790px;
@@ -12,6 +11,7 @@
   padding: .3rem;
   display: flex;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .detail_skeleton {
