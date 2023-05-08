@@ -3,9 +3,15 @@
   padding: 0;
 }
 
+html,
+body {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
 .card_skeleton {
   border: 1px solid #d1d1d1;
-  width: 790px;
+  max-width: 790px;
   height: 300px;
   margin: auto;
   padding: .3rem;
@@ -43,12 +49,23 @@
     height: 200px !important;
   }
 
+  .detail_skeleton {
+    width: 100%;
+  }
+
   .lower_skeleton {
+    display: flex;
     justify-content: flex-end !important;
-    margin-right: -13rem;
     margin-top: .2rem;
     margin-bottom: -.3rem;
     width: 100%;
-    padding-left: 16rem;
+  }
+  .lower_skeleton_child{
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .lower_skeleton_child {
+    margin-right: 1.5rem;
   }
 }

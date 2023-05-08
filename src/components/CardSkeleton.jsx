@@ -52,26 +52,26 @@ function CardSkeleton({ cards }) {
                 />
               </div>
               {/* lower_skeleton */}
-              <div className="lower_skeleton">
-                <Skeleton
-                  count={1}
-                  className="lower_skeleton_child"
-                  style={{
-                    width: "130px",
-                    marginRight: "1rem",
-                  }}
-                />
-                <Skeleton
-                  count={1}
-                  className="lower_skeleton_child"
-                  style={{
-                    width: "130px",
-                    height: "35px",
-                  }}
-                />
+                <div className="lower_skeleton">
+                  <Skeleton
+                    count={1}
+                    className="lower_skeleton_child"
+                    style={{
+                      width: "130px",
+                      marginRight: "1rem",
+                    }}
+                  />
+                  <Skeleton
+                    count={1}
+                    className="lower_skeleton_child"
+                    style={{
+                      width: "130px",
+                      height: "35px",
+                    }}
+                  />
+                </div>
               </div>
             </div>
-          </div>
         </SkeletonTheme>
       </>
     ));
