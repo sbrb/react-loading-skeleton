@@ -6,7 +6,7 @@ function CardSkeleton({ cards }) {
   return Array(cards)
     .fill(0)
     .map((item, ind) => (
-      <>
+      <div className="container_skeleton">
         {/* card_skeleton */}
         <SkeletonTheme baseColor="#dedede" highlightColor="#f5f5f5">
           <div className="card_skeleton" key={ind}>
@@ -52,28 +52,28 @@ function CardSkeleton({ cards }) {
                 />
               </div>
               {/* lower_skeleton */}
-                <div className="lower_skeleton">
-                  <Skeleton
-                    count={1}
-                    className="lower_skeleton_child"
-                    style={{
-                      width: "130px",
-                      marginRight: "1rem",
-                    }}
-                  />
-                  <Skeleton
-                    count={1}
-                    className="lower_skeleton_child"
-                    style={{
-                      width: "130px",
-                      height: "35px",
-                    }}
-                  />
-                </div>
+              <div className="lower_skeleton">
+                <Skeleton
+                  count={1}
+                  className="lower_skeleton_child"
+                  style={{
+                    width: "130px",
+                    marginRight: "1rem",
+                  }}
+                />
+                <Skeleton
+                  count={1}
+                  className="lower_skeleton_child"
+                  style={{
+                    width: "130px",
+                    height: "35px",
+                  }}
+                />
               </div>
             </div>
+          </div>
         </SkeletonTheme>
-      </>
+      </div>
     ));
 }
 

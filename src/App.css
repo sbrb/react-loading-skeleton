@@ -8,6 +8,9 @@ body {
   font-size: 16px;
   overflow-x: hidden;
 }
+.container_skeleton{
+  margin: .5rem;
+}
 
 .card_skeleton {
   border: 1px solid #d1d1d1;
