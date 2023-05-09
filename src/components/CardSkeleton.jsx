@@ -57,7 +57,7 @@ function CardSkeleton({ cards }) {
                   count={1}
                   className="lower_skeleton_child"
                   style={{
-                    width: "130px",
+                    width: "110px",
                     marginRight: "1rem",
                   }}
                 />

@@ -8,7 +8,8 @@ body {
   font-size: 16px;
   overflow-x: hidden;
 }
-.container_skeleton{
+
+.container_skeleton {
   margin: .5rem;
 }
 
@@ -54,6 +55,7 @@ body {
 
   .detail_skeleton {
     width: 100%;
+    margin-left: .5rem;
   }
 
   .lower_skeleton {
@@ -63,12 +65,20 @@ body {
     margin-bottom: -.3rem;
     width: 100%;
   }
-  .lower_skeleton_child{
+
+  .lower_skeleton_child {
     margin-right: 2rem;
   }
 }
+
 @media only screen and (max-width: 450px) {
-  .lower_skeleton_child {
-    margin-right: 1.5rem;
+  .detail_skeleton {
+    margin-bottom: .7rem;
   }
+
+  .lower_skeleton_child {
+    margin-right: 1rem;
+    margin-top: .2rem;
+  }
+
 }
