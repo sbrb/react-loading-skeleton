@@ -1,1 +1,1 @@
-# react-loading-skeleton
+# https://react-loading-skeleton1.netlify.app/
